@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    color:white;
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px
+}
+
+.logo img{
+    width: 50%;
+    height: 50%;
+    cursor:pointer;
+}
+
+.navbar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.navbar ul li a:hover{
+    color: pink;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top:80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+#button1{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid pink;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position:relative;
+    transition:0.4s;
+}
+
+#button1:hover{
+    background:pink;
+}
+
+#button2{
+    width:70px;
+    padding:10px 0;
+    text-align:center;
+    margin: 5px 5px;
+    font-weight:bold;
+    border: 2px solid pink;
+    background:transparent;
+    color:white;
+    cursor:point;
+    position:relative;
+    transition:0.4s ease;
+}
+
+#button2:hover{
+    background:pink;
+}
+
+#numbutton{
+    width:70px;
+    padding:10px 0;
+    text-align:center;
+    margin: 5px 5px;
+    font-weight:bold;
+    border: 2px solid pink;
+    background:transparent;
+    color:white;
+    cursor:point;
+    position:relative;
+}
+
+.products{
+    position:absolute;
+    color:white;
+    padding:0px 220px;
+    transform: translateY(-30%);
+}
+
+.products ul li{
+    font-size:20px;
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.products ul li a{
+    color:white;
+}
+
+.products ul li a:hover{
+    color:pink;
+}
+
+.description{
+    transform: translateY(+10%);
+    padding-left:200px;
+}
+
+.description ul li{
+    display: inline-block;
+    padding-right:275px;
+    width: 200px;
+    height: 50px;
+}
+
+.description img{
+    padding-right:300px;
+    transform: translateY(-10%);
+}
+
+.buttoncontainer {
+    display: flex;
+}
+
+span{
+    color:pink;
+}
+
+.audio{
+    transform: translateY(+375%);
+    color:white;
+
+}
+
+
+
+
+
+
+
